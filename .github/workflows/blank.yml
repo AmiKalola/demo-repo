@@ -7,7 +7,7 @@ jobs:
   demo_job:
    runs-on: ubuntu-latest
    steps:
-    - uses: action/checkout@main
+    - uses: action/checkout@demo-repo
     - name: run a one-line script
       run: echo hello
     - name: run multiple-line script
