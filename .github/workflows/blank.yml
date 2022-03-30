@@ -7,7 +7,7 @@ jobs:
   demo_job:
    runs-on: ubuntu-latest
    steps:
-    - uses: actions/demo-repo@main
+    #- uses: actions/demo-repo@main
     - name: run a one-line script
       run: echo hello
     - name: run multiple-line script
