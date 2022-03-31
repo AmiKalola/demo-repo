@@ -9,11 +9,7 @@ jobs:
    steps:
     #- uses: actions/demo-repo@main
     - name: run a one-line script
-      run: echo hello
-    - name: run multiple-line script
-      run: | 
-        echo what is in this folder?
-        sh ./first.sh
+      run: sh ./first.sh
        
   
    
