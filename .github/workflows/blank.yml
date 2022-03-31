@@ -5,13 +5,13 @@ on:
   - main 
 jobs:
   demo_job:
-   runs-on: ubuntu-latest
+   runs-on: self-hosted
    steps:
     #- uses: actions/demo-repo@main
     - name: run a one-line script
       run: echo hello
     - name: run multiple-line script
-      run: echo add two line conten
+      run: sh ./first.sh
   
    
   
