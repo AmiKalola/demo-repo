@@ -11,7 +11,9 @@ jobs:
     - name: run a one-line script
       run: echo hello
     - name: run multiple-line script
-      run: sh ./first.sh
+      run: | 
+        echo what is in this folder?
+        sh ./first.sh
   
    
   
