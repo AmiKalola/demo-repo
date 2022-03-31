@@ -9,4 +9,4 @@ jobs:
    steps:
     #- uses: actions/demo-repo@main
     - name: run a one-line script
-      run: sh ./first.sh
+      run: sh ./demo.sh
