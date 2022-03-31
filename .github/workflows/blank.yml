@@ -9,7 +9,9 @@ jobs:
    steps:
     - uses: actions/checkout@v3
     - name: run a one-line script
-      run: sh ./demo.sh
+      run: | 
+       sh ./demo.sh
+       rsync -zhvr . ubuntu@15.206.117.174:/home/ubuntu/test/
     #- name: run multiple-line script
       # run: | 
       #    echo Nothing to show here..
